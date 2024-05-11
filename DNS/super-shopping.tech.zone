@@ -1,0 +1,13 @@
+$TTL    604800
+@       IN      SOA     super-shopping.tech. root.super-shopping.tech. (
+                              2         ; Serial
+                         604800         ; Refresh
+                          86400         ; Retry
+                        2419200         ; Expire
+                         604800 )       ; Negative Cache TTL
+;
+@       IN      NS      super-shopping.tech.
+@       IN      A       100.27.101.182
+lms     IN      A       52.205.49.8
+www     IN      CNAME   super-shopping.tech.
+@       IN      MX      10 super-shopping.tech

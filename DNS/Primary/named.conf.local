@@ -1,0 +1,5 @@
+zone "super-shopping.tech" IN {
+        type master;
+        file "/etc/bind/super-shopping.tech.zone";
+        allow-transfer { 54.158.143.238; };
+};

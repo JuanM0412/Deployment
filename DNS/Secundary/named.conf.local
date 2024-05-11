@@ -1,0 +1,5 @@
+zone "super-shopping.tech" IN {
+        type slave;
+        file "/etc/bind/super-shopping.tech.zone";
+        masters { 34.200.177.3; };
+};
